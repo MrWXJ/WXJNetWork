@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WXJNetwork.h"
 
 @interface ViewController : UIViewController
 

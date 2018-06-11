@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[WXJNetwork network] WXJNetworkOfMethod:1 url:@"http://www.test.com" parameter:@"" cookieBool:false returnData:^(id data, NSError *error) {
+        
+    }];
+    
 }
 
 

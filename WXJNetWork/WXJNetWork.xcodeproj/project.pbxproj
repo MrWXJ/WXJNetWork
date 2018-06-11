@@ -15,6 +15,7 @@
 		23AE534D20CE03700065CDB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE534C20CE03700065CDB4 /* main.m */; };
 		23AE535720CE03700065CDB4 /* WXJNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE535620CE03700065CDB4 /* WXJNetWorkTests.m */; };
 		23AE536220CE03700065CDB4 /* WXJNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE536120CE03700065CDB4 /* WXJNetWorkUITests.m */; };
+		23AE537220CE04530065CDB4 /* WXJNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE537120CE04530065CDB4 /* WXJNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		23AE535D20CE03700065CDB4 /* WXJNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXJNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AE536120CE03700065CDB4 /* WXJNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXJNetWorkUITests.m; sourceTree = "<group>"; };
 		23AE536320CE03700065CDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AE537020CE04530065CDB4 /* WXJNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJNetwork.h; sourceTree = "<group>"; };
+		23AE537120CE04530065CDB4 /* WXJNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXJNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				23AE533D20CE03700065CDB4 /* AppDelegate.h */,
 				23AE533E20CE03700065CDB4 /* AppDelegate.m */,
+				23AE536F20CE04530065CDB4 /* WXJNetwork */,
 				23AE534020CE03700065CDB4 /* ViewController.h */,
 				23AE534120CE03700065CDB4 /* ViewController.m */,
 				23AE534320CE03700065CDB4 /* Main.storyboard */,
@@ -130,6 +134,15 @@
 				23AE536320CE03700065CDB4 /* Info.plist */,
 			);
 			path = WXJNetWorkUITests;
+			sourceTree = "<group>";
+		};
+		23AE536F20CE04530065CDB4 /* WXJNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				23AE537020CE04530065CDB4 /* WXJNetwork.h */,
+				23AE537120CE04530065CDB4 /* WXJNetwork.m */,
+			);
+			path = WXJNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				23AE534220CE03700065CDB4 /* ViewController.m in Sources */,
 				23AE534D20CE03700065CDB4 /* main.m in Sources */,
+				23AE537220CE04530065CDB4 /* WXJNetwork.m in Sources */,
 				23AE533F20CE03700065CDB4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
