@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    /**
+     *WXJNetworkOfMethod 为GET（1）、POST（2）
+     *url 请求地址
+     *parameter 请求参数
+     */
     [[WXJNetwork network] WXJNetworkOfMethod:1 url:@"http://www.test.com" parameter:@"" cookieBool:false returnData:^(id data, NSError *error) {
         
     }];
